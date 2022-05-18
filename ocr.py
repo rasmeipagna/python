@@ -1,10 +1,6 @@
-ensoleille = False
-neige = True
+def main ():
+    print("Hello Pagna !")
+    print("Coucou tout le monde")
 
-if ensoleille:
-   print("on va à la plage !")
-elif neige:
-   print("on fait un bonhomme de neige")
-else:
-   print("on reste à la maison !")
-   
+if __name__=='__main__':
+    main()
