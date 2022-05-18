@@ -7,3 +7,4 @@ elif neige:
    print("on fait un bonhomme de neige")
 else:
    print("on reste à la maison !")
+   
