@@ -1,4 +1,5 @@
 from statistics import mean
+from random import shuffle
 #créer une liste ui va stocker des pseudos pour simuler un jeu en ligne
 online_players = ["Pagna","Anana","Cleymax","Bob"]
 
@@ -14,7 +15,9 @@ print(online_players)
 
 notes = [8, 12, 10, 9, 4, 20, 14, 3]
 print(notes)
+shuffle(notes)
+print(notes)
 
 #module : statistics
 result = mean(notes)
-print("La moyenne de l'eleve est {".format(result))
+print("La moyenne de l'eleve est {}".format(result))
